@@ -9,24 +9,24 @@ public class Wall {
     private int messageData;
     private int replyOwnerId; //
     private int replyPostId; //
-    private int friendsOnly; //
+    private boolean friendsOnly; //
     private CopyRight copyRight;//
     private int likesCount;
-    private Likes likes; //
+    private LikesInfo likesInfo; //
     private int repostsCount;
-    private Reposts reposts;//
+    private RepostsInfo repostsInfo;//
     private int viewsCount;
-    private Views views;//
+    private ViewsInfo viewsInfo;//
     private CommentsInfo commentsInfo;
     private String postType;//
     private PostSource postSource;//
     private Geo geo;//
     private int signerId; //
-    private int canPin; //
-    private int canDelete; //
-    private int canEdit; //
-    private int isPinned; //
-    private int markedAsAds; //
+    private boolean canPin; //
+    private boolean canDelete; //
+    private boolean canEdit; //
+    private boolean isPinned; //
+    private boolean markedAsAds; //
     private boolean isFavorite; //
     private int postponedId; //
     private Donut donut; //
